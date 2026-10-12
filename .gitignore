@@ -1,0 +1,14 @@
+# Built binaries (root-level, not source dirs)
+/server
+/client
+*.exe
+
+# TLS certificates and keys — never commit
+*.pem
+
+# Logs and captured screenshots
+*.log
+screenshot_*.png
+
+# Go build cache
+/vendor/
